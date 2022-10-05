@@ -127,7 +127,7 @@ function tgl_indo_notif($tanggal)
   </style>
 </head>
 
-<nav class="navbar navbar-header navbar-expand-lg bg-skb-1">
+<nav class="navbar navbar-header navbar-expand-lg bg-primary">
 
   <div class="container-fluid">
     <!-- search -->
@@ -155,7 +155,7 @@ function tgl_indo_notif($tanggal)
           <i class="fas fa-layer-group"></i>
         </a>
         <div class="dropdown-menu quick-actions quick-actions-info animated fadeIn">
-          <div class="bg-skb-1 quick-actions-header">
+          <div class="bg-primary quick-actions-header">
             <span class="title mb-1">Opsi Cepat</span>
             <span class="subtitle op-8">Jalan pintas</span>
           </div>
@@ -166,21 +166,21 @@ function tgl_indo_notif($tanggal)
                 <a class="col-6 col-md-4 p-0" href="#" data-toggle="modal" data-target="#modalPengadaanBarangJasa">
                   <div class="quick-actions-item">
                     <i class="flaticon-envelope"></i>
-                    <span class="text text-skb-1">Pengadaan Barang & Jasa < 50JT</span>
+                    <span class="text text-primary">Pengadaan Barang & Jasa < 50JT</span>
                   </div>
                 </a>
 
                 <a class="col-6 col-md-4 p-0" href="#" data-toggle="modal" data-target="#modalPengadaanBarang" id="appRepair3">
                   <div class="quick-actions-item">
                     <i class="flaticon-envelope"></i>
-                    <span class="text text-skb-1">Pengadaan Baran 50JT - 200JT</span>
+                    <span class="text text-primary">Pengadaan Baran 50JT - 200JT</span>
                   </div>
                 </a>
 
                 <a class="col-6 col-md-4 p-0" href="#" data-toggle="modal" data-target="#modalPengadaanJasaLainnya" id="appRepair4">
                   <div class="quick-actions-item">
                     <i class="flaticon-envelope"></i>
-                    <span class="text text-skb-1">Pengadaan Jasa Lainnya 50JT - 200JT</span>
+                    <span class="text text-primary">Pengadaan Jasa Lainnya 50JT - 200JT</span>
                   </div>
                 </a>
 
@@ -189,7 +189,7 @@ function tgl_indo_notif($tanggal)
                   <a class="col-6 col-md-4 p-0" href="<?php include("url.php"); ?>dashboard/settings/user">
                     <div class="quick-actions-item">
                       <i class="flaticon-user"></i>
-                      <span class="text text-skb-1">Tambah Akun</span>
+                      <span class="text text-primary">Tambah Akun</span>
                     </div>
                   </a>
                 <?php endif; ?>
@@ -197,7 +197,7 @@ function tgl_indo_notif($tanggal)
                 <a class="col-6 col-md-4 p-0" href="<?php include("url.php"); ?>dashboard/account-settings/account?id_account=<?= $rowSession["id"]; ?>">
                   <div class="quick-actions-item">
                     <i class="flaticon-pen"></i>
-                    <span class="text text-skb-1">Ubah Profil</span>
+                    <span class="text text-primary">Ubah Profil</span>
                   </div>
                 </a>
               </div>

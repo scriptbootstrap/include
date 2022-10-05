@@ -71,8 +71,8 @@ $queryUserGuide = query("SELECT * FROM tb_user_guide"); ?>
         <li class="nav-item">
           <a data-toggle="collapse" href="#barang_jasa" class="<?= $activeBarangJasa; ?>">
             <i class="fas fa-envelope"></i>
-            <p>Barang & Jasa < 50JT</p>
-                <span class="caret"></span>
+            <p>Menu 1</p>
+            <span class="caret"></span>
           </a>
           <div class="collapse" id="barang_jasa">
             <ul class="nav nav-collapse">
@@ -168,7 +168,7 @@ $queryUserGuide = query("SELECT * FROM tb_user_guide"); ?>
         <li class="nav-item">
           <a data-toggle="collapse" href="#barang" class="<?= $activeBarang; ?>" id="appRepair1">
             <i class="fas fa-envelope"></i>
-            <p>Barang 50JT - 200JT</p>
+            <p>Menu 2</p>
             <span class="caret"></span>
           </a>
         </li>
@@ -176,7 +176,7 @@ $queryUserGuide = query("SELECT * FROM tb_user_guide"); ?>
         <li class="nav-item">
           <a data-toggle="collapse" href="#jasalainnya" class="<?= $activeJasaLainnya; ?>" id="appRepair2">
             <i class="fas fa-envelope"></i>
-            <p>Jasa Lainnya 50JT - 200JT</p>
+            <p>Menu 3</p>
             <span class="caret"></span>
           </a>
         </li>
